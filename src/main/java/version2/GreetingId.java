@@ -7,7 +7,6 @@ public class GreetingId {
         teacherInClass=true;
         System.out.println("The teacher says : Good mourning class!");
         notifyAll();
-
     }
 
     public synchronized void studentGreetId(PersonId p) throws InterruptedException {
